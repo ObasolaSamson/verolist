@@ -138,13 +138,6 @@ export class BusinessService {
   }
 
   getCategories(): Observable<{ id: string; name: string; icon: string; count: number }[]> {
-    const categoryMap = new Map<string, number>();
-    
-    this.businesses.forEach(business => {
-      const count = categoryMap.get(business.category) || 0;
-      categoryMap.set(business.category, count + 1);
-    });
-
     const categoryIcons: { [key: string]: string } = {
       'Restaurants': '🍽️',
       'Salons': '💇',
@@ -153,13 +146,20 @@ export class BusinessService {
       'Home Services': '🔧'
     };
 
-    return of(
-      Array.from(categoryMap.entries()).map(([name, count]) => ({
-        id: name.toLowerCase().replace(/\s+/g, '-'),
-        name,
-        icon: categoryIcons[name] || '📍',
-        count
-      }))
+    return this.getAllBusinesses().pipe(
+      map(businesses => {
+        const categoryMap = new Map<string, number>();
+        businesses.forEach(business => {
+          const count = categoryMap.get(business.category) || 0;
+          categoryMap.set(business.category, count + 1);
+        });
+        return Array.from(categoryMap.entries()).map(([name, count]) => ({
+          id: name.toLowerCase().replace(/\s+/g, '-'),
+          name,
+          icon: categoryIcons[name] || '📍',
+          count
+        }));
+      })
     );
   }
 
