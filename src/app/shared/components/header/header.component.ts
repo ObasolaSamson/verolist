@@ -12,8 +12,7 @@ import { FormsModule } from '@angular/forms';
       <div class="container mx-auto px-4 py-4">
         <div class="flex items-center justify-between">
           <a routerLink="/" class="flex items-center space-x-2">
-            <span class="text-2xl font-bold text-primary-600">📍 Lagos</span>
-            <span class="text-xl font-semibold text-gray-800">Business Finder</span>
+            <span class="text-2xl font-bold text-primary-600">Verolist</span>
           </a>
           <nav class="hidden md:flex items-center space-x-6">
             <a routerLink="/" routerLinkActive="text-primary-600" 

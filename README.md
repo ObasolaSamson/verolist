@@ -1,4 +1,4 @@
-# Lagos Business Finder
+# Verolist
 
 A Yelp-like Angular application for discovering businesses in Lagos, Nigeria. Built with Angular 17, Tailwind CSS, and feature-based architecture.
 

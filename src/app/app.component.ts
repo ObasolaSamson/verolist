@@ -19,6 +19,6 @@ import { FooterComponent } from './shared/components/footer/footer.component';
   styles: []
 })
 export class AppComponent {
-  title = 'Lagos Business Finder';
+  title = 'Verolist';
 }
 

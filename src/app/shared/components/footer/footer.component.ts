@@ -27,12 +27,12 @@ import { RouterModule } from '@angular/router';
             <h3 class="text-lg font-semibold mb-4">Contact</h3>
             <p class="text-gray-300 text-sm">
               Lagos, Nigeria<br>
-              <a href="mailto:info&#64;lagosbusinessfinder.com" class="hover:text-white transition-colors">info&#64;lagosbusinessfinder.com</a>
+              <a href="mailto:info&#64;verolist.com" class="hover:text-white transition-colors">info&#64;verolist.com</a>
             </p>
           </div>
         </div>
         <div class="border-t border-gray-700 mt-8 pt-6 text-center text-sm text-gray-400">
-          <p>&copy; 2024 Lagos Business Finder. All rights reserved.</p>
+          <p>&copy; 2024 Verolist. All rights reserved.</p>
         </div>
       </div>
     </footer>

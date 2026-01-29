@@ -23,11 +23,11 @@ import { CategoryCardComponent, CategoryCardData } from '../../shared/components
         <div class="relative container mx-auto px-4 py-12 md:py-20">
           <div class="max-w-4xl mx-auto text-center">
             <!-- Logo/Brand -->
-            <div class="mb-6 flex items-center justify-center gap-3">
-              <div class="w-14 h-14 md:w-16 md:h-16 bg-primary-200/50 backdrop-blur-sm rounded-2xl flex items-center justify-center">
+            <div class="mb-6 inline-flex items-center justify-center gap-3 px-4 py-2.5 md:px-5 md:py-3 rounded-2xl border-[3px] border-primary-300 bg-white/60 backdrop-blur-sm shadow-lg shadow-primary-200/30">
+              <div class="w-14 h-14 md:w-16 md:h-16 bg-primary-200/50 backdrop-blur-sm rounded-2xl flex items-center justify-center border-2 border-primary-300 shadow-md">
                 <span class="text-3xl md:text-4xl">📍</span>
               </div>
-              <h1 class="text-2xl md:text-3xl font-bold text-gray-900">Lagos Business Finder</h1>
+              <h1 class="text-2xl md:text-3xl font-bold text-gray-900">Verolist</h1>
             </div>
             
             <!-- Main Heading -->
@@ -282,7 +282,7 @@ export class HomeComponent implements OnInit {
 
   contactUs() {
     // In a real app, this could navigate to a contact page or open a modal
-    window.location.href = 'mailto:info&#64;lagosbusinessfinder.com?subject=Business Listing Inquiry';
+    window.location.href = 'mailto:info&#64;verolist.com?subject=Business Listing Inquiry';
   }
 }
 
