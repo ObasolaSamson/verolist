@@ -1,0 +1,133 @@
+[
+  {
+    "id": "1",
+    "businessId": "1",
+    "userName": "Adebayo O.",
+    "userAvatar": "https://i.pravatar.cc/150?img=12",
+    "rating": 5,
+    "comment": "Amazing food! The butter chicken is to die for. Service was excellent and the ambiance is perfect for a family dinner.",
+    "date": "2024-01-15",
+    "helpful": 12
+  },
+  {
+    "id": "2",
+    "businessId": "1",
+    "userName": "Chioma K.",
+    "userAvatar": "https://i.pravatar.cc/150?img=5",
+    "rating": 4,
+    "comment": "Good food but a bit pricey. The naan bread is fresh and delicious. Would recommend for special occasions.",
+    "date": "2024-01-10",
+    "helpful": 8
+  },
+  {
+    "id": "3",
+    "businessId": "2",
+    "userName": "Folake A.",
+    "userAvatar": "https://i.pravatar.cc/150?img=9",
+    "rating": 5,
+    "comment": "Best salon in Lagos! Nkoyo did an amazing job with my braids. Very professional and patient. Will definitely be back!",
+    "date": "2024-01-18",
+    "helpful": 15
+  },
+  {
+    "id": "4",
+    "businessId": "2",
+    "userName": "Temi B.",
+    "userAvatar": "https://i.pravatar.cc/150?img=20",
+    "rating": 4,
+    "comment": "Great service and friendly staff. The salon is clean and well-maintained. Only downside is it can get busy on weekends.",
+    "date": "2024-01-12",
+    "helpful": 6
+  },
+  {
+    "id": "5",
+    "businessId": "3",
+    "userName": "Emeka N.",
+    "userAvatar": "https://i.pravatar.cc/150?img=15",
+    "rating": 5,
+    "comment": "Excellent medical facility. The doctors are knowledgeable and caring. The lab results are always accurate and timely.",
+    "date": "2024-01-20",
+    "helpful": 20
+  },
+  {
+    "id": "6",
+    "businessId": "3",
+    "userName": "Amina S.",
+    "userAvatar": "https://i.pravatar.cc/150?img=7",
+    "rating": 4,
+    "comment": "Good hospital with modern equipment. The wait time can be long during peak hours, but the service is worth it.",
+    "date": "2024-01-14",
+    "helpful": 10
+  },
+  {
+    "id": "7",
+    "businessId": "4",
+    "userName": "Segun O.",
+    "userAvatar": "https://i.pravatar.cc/150?img=11",
+    "rating": 4,
+    "comment": "Fixed my car's brake issue quickly and at a fair price. The mechanics are honest and professional. Highly recommend!",
+    "date": "2024-01-16",
+    "helpful": 9
+  },
+  {
+    "id": "8",
+    "businessId": "5",
+    "userName": "Bisi M.",
+    "userAvatar": "https://i.pravatar.cc/150?img=18",
+    "rating": 5,
+    "comment": "HomeFix came same day to fix my leaking pipe. The plumber was professional and cleaned up after the job. Great service!",
+    "date": "2024-01-19",
+    "helpful": 14
+  },
+  {
+    "id": "9",
+    "businessId": "6",
+    "userName": "David T.",
+    "userAvatar": "https://i.pravatar.cc/150?img=13",
+    "rating": 5,
+    "comment": "Perfect date night spot! The food is exquisite and the wine selection is impressive. Service is top-notch.",
+    "date": "2024-01-17",
+    "helpful": 18
+  },
+  {
+    "id": "10",
+    "businessId": "7",
+    "userName": "Ngozi E.",
+    "userAvatar": "https://i.pravatar.cc/150?img=6",
+    "rating": 4,
+    "comment": "Beautiful salon with talented stylists. Got my hair and nails done for a wedding. Looked amazing!",
+    "date": "2024-01-13",
+    "helpful": 7
+  },
+  {
+    "id": "11",
+    "businessId": "8",
+    "userName": "Kemi A.",
+    "userAvatar": "https://i.pravatar.cc/150?img=8",
+    "rating": 5,
+    "comment": "Great clinic for families. The pediatrician is wonderful with kids. Clean facility and friendly staff.",
+    "date": "2024-01-21",
+    "helpful": 16
+  },
+  {
+    "id": "12",
+    "businessId": "9",
+    "userName": "Tunde L.",
+    "userAvatar": "https://i.pravatar.cc/150?img=14",
+    "rating": 4,
+    "comment": "Quick and affordable service. Got my oil changed in 30 minutes. No complaints!",
+    "date": "2024-01-11",
+    "helpful": 5
+  },
+  {
+    "id": "13",
+    "businessId": "10",
+    "userName": "Funmi R.",
+    "userAvatar": "https://i.pravatar.cc/150?img=10",
+    "rating": 5,
+    "comment": "ProClean did an excellent job cleaning my apartment. Very thorough and used eco-friendly products. Highly recommend!",
+    "date": "2024-01-22",
+    "helpful": 11
+  }
+]
+

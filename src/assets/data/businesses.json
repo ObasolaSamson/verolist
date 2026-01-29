@@ -1,0 +1,275 @@
+[
+  {
+    "id": "1",
+    "name": "Yellow Chilli Restaurant",
+    "category": "Restaurants",
+    "description": "Authentic Indian cuisine in the heart of Lagos. Known for their flavorful curries and warm hospitality. Perfect for family dinners and business lunches.",
+    "address": "15A Admiralty Way, Lekki Phase 1",
+    "area": "Lekki",
+    "phone": "+234 802 123 4567",
+    "whatsapp": "+234 802 123 4567",
+    "rating": 4.5,
+    "reviewCount": 234,
+    "imageUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800",
+      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800"
+    ],
+    "features": ["Outdoor Seating", "Parking Available", "WiFi", "Accepts Cards"],
+    "openingHours": {
+      "Monday": "11:00 AM - 10:00 PM",
+      "Tuesday": "11:00 AM - 10:00 PM",
+      "Wednesday": "11:00 AM - 10:00 PM",
+      "Thursday": "11:00 AM - 10:00 PM",
+      "Friday": "11:00 AM - 11:00 PM",
+      "Saturday": "11:00 AM - 11:00 PM",
+      "Sunday": "12:00 PM - 10:00 PM"
+    },
+    "verified": true
+  },
+  {
+    "id": "2",
+    "name": "Nkoyo Hair Salon",
+    "category": "Salons",
+    "description": "Professional hair styling and beauty services. Specializing in natural hair care, braids, and protective styles. Experienced stylists with years of expertise.",
+    "address": "42 Awolowo Road, Ikoyi",
+    "area": "Ikoyi",
+    "phone": "+234 803 234 5678",
+    "whatsapp": "+234 803 234 5678",
+    "rating": 4.7,
+    "reviewCount": 189,
+    "imageUrl": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800"
+    ],
+    "features": ["Appointment Booking", "Hair Products Available", "Air Conditioned"],
+    "openingHours": {
+      "Monday": "9:00 AM - 7:00 PM",
+      "Tuesday": "9:00 AM - 7:00 PM",
+      "Wednesday": "9:00 AM - 7:00 PM",
+      "Thursday": "9:00 AM - 7:00 PM",
+      "Friday": "9:00 AM - 8:00 PM",
+      "Saturday": "8:00 AM - 8:00 PM",
+      "Sunday": "Closed"
+    },
+    "verified": true
+  },
+  {
+    "id": "3",
+    "name": "Lagoon Hospital",
+    "category": "Clinics",
+    "description": "Full-service medical facility offering general consultations, laboratory services, and emergency care. Experienced doctors and modern equipment.",
+    "address": "1 Bourdillon Road, Ikoyi",
+    "area": "Ikoyi",
+    "phone": "+234 701 345 6789",
+    "whatsapp": "+234 701 345 6789",
+    "rating": 4.6,
+    "reviewCount": 456,
+    "imageUrl": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800"
+    ],
+    "features": ["24/7 Emergency", "Laboratory", "Pharmacy", "Health Insurance Accepted"],
+    "openingHours": {
+      "Monday": "24 Hours",
+      "Tuesday": "24 Hours",
+      "Wednesday": "24 Hours",
+      "Thursday": "24 Hours",
+      "Friday": "24 Hours",
+      "Saturday": "24 Hours",
+      "Sunday": "24 Hours"
+    },
+    "verified": true
+  },
+  {
+    "id": "4",
+    "name": "AutoCare Services",
+    "category": "Auto",
+    "description": "Complete auto repair and maintenance services. Specializing in engine repairs, brake services, and car diagnostics. Trusted by Lagos drivers.",
+    "address": "78 Adeniran Ogunsanya Street, Surulere",
+    "area": "Surulere",
+    "phone": "+234 805 456 7890",
+    "whatsapp": "+234 805 456 7890",
+    "rating": 4.4,
+    "reviewCount": 312,
+    "imageUrl": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800"
+    ],
+    "features": ["Free Diagnostics", "Warranty on Parts", "Towing Service", "Car Wash"],
+    "openingHours": {
+      "Monday": "8:00 AM - 6:00 PM",
+      "Tuesday": "8:00 AM - 6:00 PM",
+      "Wednesday": "8:00 AM - 6:00 PM",
+      "Thursday": "8:00 AM - 6:00 PM",
+      "Friday": "8:00 AM - 6:00 PM",
+      "Saturday": "9:00 AM - 4:00 PM",
+      "Sunday": "Closed"
+    },
+    "verified": true
+  },
+  {
+    "id": "5",
+    "name": "HomeFix Solutions",
+    "category": "Home Services",
+    "description": "Professional home repair and maintenance services. Plumbing, electrical, painting, and general repairs. Reliable and affordable service.",
+    "address": "12 Herbert Macaulay Way, Yaba",
+    "area": "Yaba",
+    "phone": "+234 807 567 8901",
+    "whatsapp": "+234 807 567 8901",
+    "rating": 4.3,
+    "reviewCount": 178,
+    "imageUrl": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800"
+    ],
+    "features": ["Same Day Service", "Licensed Technicians", "Free Quotes", "Emergency Service"],
+    "openingHours": {
+      "Monday": "7:00 AM - 7:00 PM",
+      "Tuesday": "7:00 AM - 7:00 PM",
+      "Wednesday": "7:00 AM - 7:00 PM",
+      "Thursday": "7:00 AM - 7:00 PM",
+      "Friday": "7:00 AM - 7:00 PM",
+      "Saturday": "8:00 AM - 5:00 PM",
+      "Sunday": "10:00 AM - 4:00 PM"
+    },
+    "verified": true
+  },
+  {
+    "id": "6",
+    "name": "Bottles Restaurant & Bar",
+    "category": "Restaurants",
+    "description": "Upscale restaurant and bar offering continental dishes and an extensive wine selection. Perfect for date nights and special occasions.",
+    "address": "38A Saka Tinubu Street, Victoria Island",
+    "area": "Victoria Island",
+    "phone": "+234 809 678 9012",
+    "whatsapp": "+234 809 678 9012",
+    "rating": 4.8,
+    "reviewCount": 567,
+    "imageUrl": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800",
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800"
+    ],
+    "features": ["Live Music", "Private Dining", "Valet Parking", "WiFi"],
+    "openingHours": {
+      "Monday": "12:00 PM - 11:00 PM",
+      "Tuesday": "12:00 PM - 11:00 PM",
+      "Wednesday": "12:00 PM - 11:00 PM",
+      "Thursday": "12:00 PM - 11:00 PM",
+      "Friday": "12:00 PM - 12:00 AM",
+      "Saturday": "12:00 PM - 12:00 AM",
+      "Sunday": "12:00 PM - 10:00 PM"
+    },
+    "verified": true
+  },
+  {
+    "id": "7",
+    "name": "Glamour Beauty Studio",
+    "category": "Salons",
+    "description": "Full-service beauty salon offering hair, nails, makeup, and skincare services. Professional team dedicated to making you look your best.",
+    "address": "25A Toyin Street, Ikeja",
+    "area": "Ikeja",
+    "phone": "+234 810 789 0123",
+    "whatsapp": "+234 810 789 0123",
+    "rating": 4.5,
+    "reviewCount": 245,
+    "imageUrl": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800"
+    ],
+    "features": ["Bridal Packages", "Group Bookings", "Product Sales", "Gift Cards"],
+    "openingHours": {
+      "Monday": "9:00 AM - 7:00 PM",
+      "Tuesday": "9:00 AM - 7:00 PM",
+      "Wednesday": "9:00 AM - 7:00 PM",
+      "Thursday": "9:00 AM - 7:00 PM",
+      "Friday": "9:00 AM - 8:00 PM",
+      "Saturday": "8:00 AM - 8:00 PM",
+      "Sunday": "10:00 AM - 6:00 PM"
+    },
+    "verified": true
+  },
+  {
+    "id": "8",
+    "name": "MedPlus Clinic",
+    "category": "Clinics",
+    "description": "Family-friendly clinic providing comprehensive healthcare services including pediatrics, women's health, and general medicine.",
+    "address": "15 Ogunlana Drive, Surulere",
+    "area": "Surulere",
+    "phone": "+234 811 890 1234",
+    "whatsapp": "+234 811 890 1234",
+    "rating": 4.4,
+    "reviewCount": 389,
+    "imageUrl": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=800"
+    ],
+    "features": ["Pediatrics", "Women's Health", "Vaccinations", "Health Insurance"],
+    "openingHours": {
+      "Monday": "8:00 AM - 6:00 PM",
+      "Tuesday": "8:00 AM - 6:00 PM",
+      "Wednesday": "8:00 AM - 6:00 PM",
+      "Thursday": "8:00 AM - 6:00 PM",
+      "Friday": "8:00 AM - 6:00 PM",
+      "Saturday": "9:00 AM - 2:00 PM",
+      "Sunday": "Closed"
+    },
+    "verified": true
+  },
+  {
+    "id": "9",
+    "name": "QuickFix Auto",
+    "category": "Auto",
+    "description": "Fast and reliable auto repair shop. Specializing in quick fixes, oil changes, and tire services. No appointment needed.",
+    "address": "89 Obafemi Awolowo Way, Ikeja",
+    "area": "Ikeja",
+    "phone": "+234 812 901 2345",
+    "whatsapp": "+234 812 901 2345",
+    "rating": 4.2,
+    "reviewCount": 201,
+    "imageUrl": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800"
+    ],
+    "features": ["Walk-in Service", "Quick Service", "Affordable Prices", "Car Wash"],
+    "openingHours": {
+      "Monday": "7:00 AM - 7:00 PM",
+      "Tuesday": "7:00 AM - 7:00 PM",
+      "Wednesday": "7:00 AM - 7:00 PM",
+      "Thursday": "7:00 AM - 7:00 PM",
+      "Friday": "7:00 AM - 7:00 PM",
+      "Saturday": "8:00 AM - 5:00 PM",
+      "Sunday": "Closed"
+    },
+    "verified": false
+  },
+  {
+    "id": "10",
+    "name": "ProClean Services",
+    "category": "Home Services",
+    "description": "Professional cleaning services for homes and offices. Deep cleaning, regular maintenance, and post-renovation cleaning available.",
+    "address": "34 Adeniyi Jones Avenue, Ikeja",
+    "area": "Ikeja",
+    "phone": "+234 813 012 3456",
+    "whatsapp": "+234 813 012 3456",
+    "rating": 4.6,
+    "reviewCount": 298,
+    "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800",
+    "images": [
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800"
+    ],
+    "features": ["Eco-Friendly Products", "Insured", "Flexible Scheduling", "Commercial Cleaning"],
+    "openingHours": {
+      "Monday": "7:00 AM - 7:00 PM",
+      "Tuesday": "7:00 AM - 7:00 PM",
+      "Wednesday": "7:00 AM - 7:00 PM",
+      "Thursday": "7:00 AM - 7:00 PM",
+      "Friday": "7:00 AM - 7:00 PM",
+      "Saturday": "8:00 AM - 5:00 PM",
+      "Sunday": "Closed"
+    },
+    "verified": true
+  }
+]
+
