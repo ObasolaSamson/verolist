@@ -29,7 +29,7 @@ import { RatingStarsComponent } from '../../shared/components/rating-stars/ratin
         <div class="mb-8">
           <app-search-input 
             [initialValue]="filters.query || ''"
-            placeholder="Search businesses, categories..."
+            placeholder="Search verified businesses, categories, areas..."
             (search)="onSearch($event)">
           </app-search-input>
         </div>
@@ -108,7 +108,7 @@ import { RatingStarsComponent } from '../../shared/components/rating-stars/ratin
           <div class="lg:col-span-3">
             <div class="mb-6 flex items-center justify-between">
               <h2 class="text-2xl font-bold text-gray-900">
-                {{ results.length }} Business{{ results.length !== 1 ? 'es' : '' }} Found
+                {{ results.length }} Verified business{{ results.length !== 1 ? 'es' : '' }} found
               </h2>
             </div>
 
@@ -123,7 +123,7 @@ import { RatingStarsComponent } from '../../shared/components/rating-stars/ratin
               <div class="text-6xl mb-4">🔍</div>
               <h3 class="text-xl font-semibold text-gray-900 mb-2">No businesses found</h3>
               <p class="text-gray-600 mb-6">
-                Try adjusting your search terms, filters, or browse by category
+                Try adjusting your search or browse verified categories
               </p>
               <button 
                 (click)="clearFilters()"

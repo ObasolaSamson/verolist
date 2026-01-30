@@ -13,14 +13,14 @@ import { RouterModule } from '@angular/router';
           <div>
             <h3 class="text-lg font-semibold mb-4">About</h3>
             <p class="text-gray-300 text-sm">
-              Find the best businesses in Lagos, Nigeria. Read reviews, discover local favorites, and connect with trusted service providers.
+              Verified businesses in Lagos—Lekki, Ikeja, Yaba, and more. Call or WhatsApp directly. No fake listings.
             </p>
           </div>
           <div>
             <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
             <ul class="space-y-2 text-sm">
               <li><a routerLink="/" class="text-gray-300 hover:text-white transition-colors">Home</a></li>
-              <li><a routerLink="/search" class="text-gray-300 hover:text-white transition-colors">Search Businesses</a></li>
+              <li><a routerLink="/search" class="text-gray-300 hover:text-white transition-colors">Browse Verified</a></li>
             </ul>
           </div>
           <div>

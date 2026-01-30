@@ -32,13 +32,14 @@ import { CategoryCardComponent, CategoryCardData } from '../../shared/components
             
             <!-- Main Heading -->
             <h2 class="text-3xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 leading-tight">
-              Find the Best Businesses<br class="hidden md:block">
-              <span class="text-primary-700">in Lagos, Nigeria</span>
+              Discover verified businesses<br class="hidden md:block">
+              <span class="text-primary-700">you can trust in Lagos</span>
             </h2>
             
             <!-- Subheading -->
             <p class="text-lg md:text-xl mb-8 md:mb-10 text-gray-700 max-w-2xl mx-auto px-4">
-              Discover trusted restaurants, salons, clinics, and services. Read reviews, find deals, and connect with local businesses near you.
+              Verified businesses. Real connections.
+              Discover trusted places across Lagos in minutes.
             </p>
             
             <!-- Search Bar (inline - owned by home component) -->
@@ -48,7 +49,7 @@ import { CategoryCardComponent, CategoryCardData } from '../../shared/components
                   type="text"
                   [(ngModel)]="homeSearchQuery"
                   (keyup.enter)="onSearch()"
-                  placeholder="Search businesses, categories, or areas..."
+                  placeholder="Search verified businesses, categories, or areas..."
                   class="w-full px-4 py-3 pr-12 border-0 rounded-lg focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-primary-600 text-gray-900 placeholder-gray-500"
                   aria-label="Search businesses"
                 />
@@ -84,6 +85,39 @@ import { CategoryCardComponent, CategoryCardData } from '../../shared/components
         </div>
       </section>
 
+      <!-- Why Verolist -->
+      <section class="py-8 md:py-12 bg-white">
+        <div class="container mx-auto px-4">
+          <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-6 text-center">Why Verolist?</h2>
+          <div class="max-w-2xl mx-auto space-y-4">
+            <div class="flex items-start gap-3">
+              <span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary-100 flex items-center justify-center mt-0.5">
+                <svg class="w-4 h-4 text-primary-600" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                </svg>
+              </span>
+              <p class="text-gray-700">Verified businesses only—every listing is checked before it goes live.</p>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary-100 flex items-center justify-center mt-0.5">
+                <svg class="w-4 h-4 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                </svg>
+              </span>
+              <p class="text-gray-700">Lagos-focused discovery—Lekki, Ikeja, Yaba, Victoria Island, and more.</p>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary-100 flex items-center justify-center mt-0.5">
+                <svg class="w-4 h-4 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                </svg>
+              </span>
+              <p class="text-gray-700">No fake or outdated listings—call or WhatsApp businesses with confidence.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- Popular Categories -->
       <section class="py-8 md:py-16 bg-white">
         <div class="container mx-auto px-4">
@@ -92,7 +126,7 @@ import { CategoryCardComponent, CategoryCardData } from '../../shared/components
               Browse by Category
             </h2>
             <p class="text-gray-600 text-base md:text-lg max-w-2xl mx-auto">
-              Explore businesses by category and find exactly what you're looking for
+              Browse verified businesses by category
             </p>
           </div>
           
@@ -145,7 +179,7 @@ import { CategoryCardComponent, CategoryCardData } from '../../shared/components
                 Verified Businesses
               </h2>
               <p class="text-gray-600 text-base md:text-lg">
-                Top-rated and verified businesses in Lagos
+                Trusted businesses you can call or WhatsApp directly
               </p>
             </div>
             <button
@@ -205,7 +239,7 @@ import { CategoryCardComponent, CategoryCardData } from '../../shared/components
             Own a Business in Lagos?
           </h2>
           <p class="text-lg md:text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
-            List your business and reach thousands of customers looking for your services
+            Get verified and reach customers who trust Verolist for real, contactable businesses
           </p>
           <button
             class="bg-white text-primary-600 px-8 py-4 rounded-lg font-semibold hover:bg-primary-50 transition-colors duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
